@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-//1.1Task
+//1.1Task(от 1 до 3 и +1 к нечетным)
 
         int[] number = new int[3];
         number[0] = 1;
@@ -32,12 +32,13 @@ public class Main {
 
 
 
-//1.2Task
+//1.2Task(дробные)
         System.out.println("\n");
         float[] number1 = new float[] {1.57f, 7.654f, 9.986f};
         System.out.println(number1[0] + ", " + number1[1] + ", " + number1[2]);
         System.out.println("\n" + number1[2] + ", " + number1[1] + ", " + number1[0]);
-//1.3Task
+
+//1.3Task(Произвольный массив)
 
         int[][]number2 = new int [][]{
                 {1, 2},
